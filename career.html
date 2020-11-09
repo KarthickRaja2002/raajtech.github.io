@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<title>Career Opportunities</title>
+	<style>
+		.logo{
+			width: 105px;
+			height: 107px;
+			float: left;
+			background-color: #baf279;
+		}
+		h3{
+			font-family: bookman old style;
+			font-weight: bold;
+			font-size: 24pt;
+			background-color: #baf279;
+			text-align: center;
+			position: center;
+			padding: 1em;
+			color: #f5433d;
+		}
+		.search{
+			width: 16%;
+			padding: 16.5px 17px;
+			display: inline-block;
+			border: none;
+			background: #f0dcda;
+		}
+		.topnav {
+  			background-color: #333;
+  			overflow: hidden;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #f25a71;
+}
+.topnav a:hover {
+  background-color: #fafa5f;
+  color: black;
+}
+.wel{
+	background-color: lightgray;
+	font-family: lucida calligraphy;
+	color: blue;
+	height:30px;
+	font-weight: normal;
+	padding: 3px;
+	position: center;
+
+}
+.s1{
+	width: 40px;
+	height: 42px;
+	padding: 3px;
+	position: center;
+	background-color: #f0dcda;
+	float: left;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+footer{
+	text-align: center;
+	background-color: #fafa87;
+	font-family: arial;
+	font-weight: bold;
+}
+.abcd{
+color: #f705b3;
+background-color: black;
+}
+h4{
+	background-color: #8cfade;
+	font-weight: bold;
+	font-size: 28px;
+	font-family: lucida calligraphy;
+	padding: 5px;
+	text-align: center;
+	color: #e6050c;
+}
+.dropdown {
+	float: right;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #f25a71;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #fafa5f;
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.Login-container{
+			width: 400px;
+			margin: 16px auto;
+			font-size: 16px;
+			float: right;
+		}
+		.Login-container{
+			background: #ebebeb;
+			padding: 12px;
+		}
+		.Login-container input{
+			box-sizing: border-box;
+			display: block;
+			width: 100%;
+			border-width: 1px;
+			border-style: solid;
+			padding: 16px;
+			outline: 0;
+			font-family: inherit;
+			font-size: 0.95em;
+		}
+		.Login-container input[type="email"],
+		.Login-container input[type="text"],
+		.Login-container input[type="tel"],
+		.Login-container input[type="file"]{
+			background: #fff;
+			border-color: #bbb;
+			color: #555;
+		}
+		.Login-container input[type="email"]:focus,
+		.Login-container input[type="text"]:focus,
+		.Login-container input[type="tel"]:focus,
+		.Login-container input[type="file"]:focus{
+			border-color: #888;
+		}
+		.Login-container input[type="submit"]{
+			background: #28d;
+			border-color: transparent;
+			color: #fff;
+			cursor: pointer;
+		}
+		.Login-container input[type="submit"]:hover{
+			background: #17c;
+		}
+		.Login-container input[type="submit"]:focus{
+			border-color: #05a;
+		}
+video{
+	position: center;
+}
+</style>
+</head>
+<body>
+<div>
+	<img src="logo2.jpg" class="logo"><h3>RAAJ TECH Pvt. Ltd.</h3>
+
+</div>
+
+<div class="topnav">
+
+	<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category" class="search"><img src="search.png" class="s1">
+		<a href="index.html" class="active">Home</a>
+		<a href="aboutUs.html" >About Us</a>
+		<a href="services.html" >Services</a>
+		<a href="career.html">Career</a>
+		<div class="dropdown">
+    	<button class="dropbtn">Login
+      	<i class="fa fa-caret-down"></i>
+    	</button>
+    	<div class="dropdown-content">
+      		<a href="userLogin.html">User Login</a>
+      		<a href="deptLogin.html">Department Login</a>
+    	</div>
+  		</div>
+		<a href="contactUs.html" >Contact Us</a>
+</div>
+<marquee class="wel">Welcome to the world of Innovations!!!</marquee>
+<div>
+	<video width="800" height="500" autoplay>
+		<source src="WeAreHiring.mp4" type="video/mp4">
+	</video>
+	<form class="Login-container">
+			<p><input type="text" name="fname" id ="fname" placeholder="First Name"></p>
+			<p><input type="text" name="lname" id="lname" placeholder="Last Name"></p>
+			<p><input type="email" name="rmail" id="rmail" placeholder="Email Address"></p>
+			<p><input type="tel" name="phno" id="phno" placeholder="Mobile number"></p>
+			<p><input type="text"  name="qqq" id="qqq" placeholder="Position You are applying for?"></p>
+			<p><input type="file" name="Resume" id="resume" placeholder="Upload Your Resume"></p>
+			<p><input type="submit" value="Send"></p>
+		</form>
+</div>
+
+	
+
+<footer class="footer-distributed">
+ 
+		<div class="footer-left">
+ 
+		<h4>Raaj Tech <span>Pvt.Ltd.</span></h4>
+ 
+		<p class="footer-links">
+		<a href="index.html">Home</a>
+	·
+		<a href="aboutUs.html">About Us</a>
+	·
+		<a href="services.html">Services</a>
+	·
+		<a href="career.html">Career</a>
+	.
+		<a href="contactUs.html">Contact Us</a>
+		</p>
+ 
+		<p class="footer-company-name">Raaj Tech &copy; 2020</p>
+		</div>
+ 
+		<div class="footer-center">
+ 
+		<div style="color: #f705b3">
+		
+		<p><span>21, Salem - Cochin Highway,</span> COIMBATORE - 641 002, Tamil Nadu, India</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-phone"></i>
+		<p>+91 93602 28089</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-envelope"></i>
+		<p><a href="mailto:nkarthickraja.btech@gmail.com">contact@raajtech.com</a></p>
+		</div>
+ 
+		</div>
+ 
+		
+		</footer>
+</body>
+</html>
